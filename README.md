@@ -10,3 +10,7 @@ This repository contains the code used in my MSc thesis:
 5. Run `modeling.ipynb/` to build LMM, GMM and GAMM models in thesis Section 3.
 
 Note that in step 1, 4, 5, we need to adjust the code to apply for Modis datasets that use different buffers.
+
+## Requirements
+1. A Google Earth Engine account and a cloud project.
+2. Python 3.9+ with packages `numpy`, `pandas`, `matplotlib`, `seaborn`, `pyarrow`, `scipy`, `statsmodels`, `sklearn` and `rpy2` for R code implementation in Python.
